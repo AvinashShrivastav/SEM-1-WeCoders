@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: black;
+
+}
+
+#section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */ 
+}
+
+#form {
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 50px 3px white;
+    border-radius: 15px;
+    height: 60%;
+    width: 25%;
+}
+
+form .imagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    height: 40%;
+}
+
+form .imagebox img{
+    height: 50%;
+}
+
+form .fieldbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 60%;
+}
+
+
+form .fieldbox input {
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 15%;
+    padding-left: 15px;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+form .fieldbox button {
+    border-radius: 15px;
+    border: 1px solid grey;
+    width: 80%;
+    height: 15%;
+    background-color: rgb(146, 55, 231);
+    color: white;
+}
+
+
+
+.darkmode {
+    /* background-color: white; */
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    
+}
+
+.darkmode button {
+    height: 100%;
+    width: 100%;
+}
